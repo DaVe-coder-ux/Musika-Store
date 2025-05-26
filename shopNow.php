@@ -106,7 +106,7 @@ try {
               </div>
             <?php endforeach; ?>
           <?php else: ?>
-            <p>No products found.</p>
+            <p style="font-family: 'Segoe Script', cursive; font-size: 24px; text-align: center;">No products found.</p>
           <?php endif; ?>
         </div>
       </div>
