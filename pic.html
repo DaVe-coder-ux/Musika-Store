@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pic</title>
+</head>
+<style>
+    li {
+        list-style: none;
+        width: 50px;
+        height: 50px;
+        display: block;
+        bottom: 330px;
+        right: 400px;
+        position: relative;
+        border-end-end-radius: 100%;
+    }
+
+    li span {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 5px solid #fff;
+    }
+
+    li.back span {
+        top: 50%;
+        left: 39%;
+        transform: translateY(-50%) rotate(-45deg);
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-image: url(b68ada06c3976865243367227c11b869.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(5px);
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+</style>
+<body>
+    <div class="bg"></div>
+    <div class="img">
+        <li class="back"><a href="labWeb.php"><span></span></a></li>
+        <img src="IMG_20241012_131430.jpg">
+    </div>
+</body>
+</html>
